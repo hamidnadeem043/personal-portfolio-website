@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+
+      <h2 class="logo">Hamid.dev</h2>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" aria-expanded="false">
+        ☰
+      </button>
+
+      <!-- Navigation -->
+      <ul id="main-navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+
+      <h1>Hello, I'm <span>Hamid</span></h1>
+
+      <h2>Frontend Developer & C++ Programmer</h2>
+
+      <p>
+        Passionate about building responsive websites,
+        modern UI designs, and programming projects.
+      </p>
+
+      <!-- Buttons -->
+      <div class="hero-buttons">
+
+        <a href="#projects">
+          <button>View Projects</button>
+        </a>
+
+        <a href="#contact">
+          <button>Contact Me</button>
+        </a>
+
+        <a href="MY CV.docx" download>
+          <button>Download CV</button>
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- Hero Image -->
+    <div class="hero-image">
+      <img src="mypic.jpg" alt="Profile Image">
+    </div>
+
+  </section>
+
+  
+  <section class="about" id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      Passionate Software Engineering student focused on AI and AI-powered web development. I enjoy building modern websites, smart applications, and programming projects while continuously exploring new technologies and AI tools. Skilled in frontend development, C++, Java, SQL, and problem-solving, with growing knowledge of integrating AI into web applications and development workflows. Knowledgeable in user interface design, testing, and debugging processes. Able to effectively self-manage during independent projects as well as collaborate in a team environment.
+
+    </p>
+
+  </section>
+
+  <div class="page-layout">
+    <aside class="sidebar" id="skills">
+      <h2>Skills</h2>
+      <div class="sidebar-skills">
+        <div class="sidebar-skill">HTML</div>
+        <div class="sidebar-skill">CSS</div>
+        <div class="sidebar-skill">JavaScript</div>
+        <div class="sidebar-skill">C++</div>
+        <div class="sidebar-skill">SQL Basics</div>
+        <div class="sidebar-skill">Python Basics</div>
+        <div class="sidebar-skill">Java</div>
+        <div class="sidebar-skill">Git & GitHub</div>
+        <div class="sidebar-skill">Responsive Design</div>
+        <div class="sidebar-skill">Problem Solving</div>
+      </div>
+    </aside>
+
+    <div class="content-main">
+      
+      <section class="projects" id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+          <div class="project-card">
+            <img src="to-do app.jpeg" alt="To-Do App preview">
+            <div class="project-info">
+              <h3>To-Do App</h3>
+              <p>Responsive task manager with JavaScript interactions and local storage.</p>
+              <a href="#contact">View Details</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="spotify-clone.jpeg" alt="Spotify clone preview">
+            <div class="project-info">
+              <h3>Spotify Clone</h3>
+              <p>Modern music streaming UI built with HTML, CSS, and interactive layout design.</p>
+              <a href="#contact">View Details</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="petadopt.jpeg" alt="Pet Adoption website preview">
+            <div class="project-info">
+              <h3>Pet Adoption Website</h3>
+              <p>Responsive website concept for pet adoption with clean visuals and easy navigation.</p>
+              <a href="#contact">View Details</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="color-generator.jpeg" alt="Color Generator preview">
+            <div class="project-info">
+              <h3>Random Color Generator</h3>
+              <p>Interactive tool for creating and exploring color palettes with real-time preview.</p>
+              <a href="#contact">View Details</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+  
+  <section class="contact" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+      Email:
+      <a href="mailto:hamidnadeemn043@gmail.com">
+        hamidnadeemn043@gmail.com
+      </a>
+    </p>
+
+    <div class="social-buttons">
+
+      <a href="https://github.com/hamidnadeem043" target="_blank">
+        <button>GitHub</button>
+      </a>
+
+      <a href="https://www.linkedin.com/in/hamid-nadeem-890285372" target="_blank">
+        <button>LinkedIn</button>
+      </a>
+
+    </div>
+
+  </section>
+
+  <script src="mobile.js"></script>
+
+</body>
+</html>
